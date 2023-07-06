@@ -1,0 +1,849 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-27:19
+MERGED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-27:19
+MERGED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:razorpay_flutter] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/razorpay_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-8:19
+MERGED from [:razorpay_flutter] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/razorpay_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-8:19
+MERGED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:41:5-64:19
+MERGED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:41:5-64:19
+MERGED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:9:5-18:19
+MERGED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:9:5-18:19
+MERGED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:9:5-14:19
+MERGED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:9:5-14:19
+MERGED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:16:5-90:19
+MERGED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:16:5-90:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:9:5-14:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.material:material:1.5.0] /Users/tejaspatel/.gradle/caches/transforms-3/0258c1eaf553756290d1f39f34340425/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /Users/tejaspatel/.gradle/caches/transforms-3/0258c1eaf553756290d1f39f34340425/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/4ed915bd47a0922f08fb71a4b968bf65/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/4ed915bd47a0922f08fb71a4b968bf65/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/54802d3ebe8827f91e51bbfe38450b07/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/54802d3ebe8827f91e51bbfe38450b07/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/44291d33a8ba5d99c9b90ddf1211ebec/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/44291d33a8ba5d99c9b90ddf1211ebec/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/03941fd109df67870073e4528c818a1f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/03941fd109df67870073e4528c818a1f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.8.0-alpha07] /Users/tejaspatel/.gradle/caches/transforms-3/b859187ce696ca0e2c527ddd68591805/transformed/core-1.8.0-alpha07/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0-alpha07] /Users/tejaspatel/.gradle/caches/transforms-3/b859187ce696ca0e2c527ddd68591805/transformed/core-1.8.0-alpha07/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a2235def62eeb1f764993dd6b36a082f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a2235def62eeb1f764993dd6b36a082f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/tejaspatel/.gradle/caches/transforms-3/30436bd1f74e852cb57a2256d499e59f/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/tejaspatel/.gradle/caches/transforms-3/30436bd1f74e852cb57a2256d499e59f/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:9:5-13:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0-alpha07] /Users/tejaspatel/.gradle/caches/transforms-3/b859187ce696ca0e2c527ddd68591805/transformed/core-1.8.0-alpha07/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:google_maps_flutter_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-29:12
+MERGED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:connectivity] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:razorpay_flutter] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/razorpay_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:package_info_plus] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:stripe_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/stripe_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:2:1-66:12
+MERGED from [com.stripe:stripe-android:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/8cc36d0c79af2caf3a773b1c70f2778d/transformed/jetified-stripe-android-20.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.stripe:payments-ui-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/20c5eae8992bcbabedf57b366be3336e/transformed/jetified-payments-ui-core-20.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:2:1-92:12
+MERGED from [com.stripe:payments-model:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/8c3eb77e1257b429daf4920346eb89d9/transformed/jetified-payments-model-20.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:stripe-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/c947d12cba318ecfbfa956c47aead178/transformed/jetified-stripe-core-20.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.constraintlayout:constraintlayout-compose:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8d0d4428190a26a44c864d8956860203/transformed/jetified-constraintlayout-compose-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/559a6e2fe138c3188d2dfd5904fb0057/transformed/jetified-material-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.23.1] /Users/tejaspatel/.gradle/caches/transforms-3/95f82da659321101f7a4e84693c56693/transformed/jetified-accompanist-flowlayout-0.23.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/25b8efe962ada9c60c9cfe0f8e3f94c1/transformed/jetified-material-ripple-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/e989123ca09d86d937f0a1e78369b01b/transformed/jetified-foundation-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-core:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/229adb549694dc0d2ff208dc68ecaf35/transformed/jetified-material-icons-core-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/eab22fc42b4767a7022be8513ef76a46/transformed/jetified-runtime-livedata-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-compose:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/f9806905d5c9fe0760dd6ea6eb9d0b7b/transformed/jetified-navigation-compose-2.5.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a780c46947e8521b89641dca493443e7/transformed/jetified-animation-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/7f214f2fbae87e8f07c7c5b144432e2d/transformed/jetified-foundation-layout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-compose:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/79b368f010e5205f6f41332d61a213e0/transformed/jetified-activity-compose-1.5.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/11d42ec319a6517920133e27dc8d1126/transformed/jetified-lifecycle-viewmodel-compose-2.5.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/bc9dc87f3065f586399489d8c9150096/transformed/jetified-animation-core-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/2c53db00ac4c0811d53799d231f28c60/transformed/jetified-ui-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/377798e1f07d263b2437b52a8edaba97/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/84213076b41aebf18f1bec7448c265cf/transformed/jetified-ui-tooling-preview-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/afa0d3b63469400119cf57fa6310f673/transformed/jetified-ui-text-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/8e7491a53b71e71c27fa3c14acd8146a/transformed/jetified-runtime-saveable-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/05ef55ccd0cdd2edaed2fa972151bd01/transformed/jetified-ui-graphics-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/42d45d996fdc0eaf5177d45590a93d37/transformed/jetified-ui-unit-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a25bcc298f8a3a22e0b474588be691ac/transformed/jetified-ui-geometry-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/3297eb19347b8923d13204e820441ce3/transformed/jetified-runtime-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/4ebefa4f8a09296185ff93c1a443270c/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/dff2070fe005664539d081f270bef274/transformed/navigation-runtime-ktx-2.5.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/2a80f3f22a10d636ef3d2b0e977c0672/transformed/navigation-runtime-2.5.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/89fd874653bd2b6d59c93f1f7c524db1/transformed/jetified-activity-ktx-1.5.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/c14afe6bee4309a568acabfc727df1e4/transformed/navigation-common-ktx-2.5.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/f598c0ab8fb78b44e0973e12426ed10c/transformed/navigation-common-2.5.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/765d83fd2aa8e38cf98eba470117a6d3/transformed/jetified-lifecycle-viewmodel-ktx-2.5.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/a67f67b7bcc966067febedf963447a96/transformed/jetified-play-services-wallet-19.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.material:material:1.5.0] /Users/tejaspatel/.gradle/caches/transforms-3/0258c1eaf553756290d1f39f34340425/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/4ed915bd47a0922f08fb71a4b968bf65/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/f78c5aeea1f53467e93678cd6c1a1211/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/658b5c0d02ff8f74ede0c1dbad09d41c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/d1848091edbb20bed2913d8a220d9b30/transformed/jetified-play-services-auth-api-phone-17.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/21e96fcdcb9040700d9d8a1bd505f727/transformed/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/54802d3ebe8827f91e51bbfe38450b07/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/44291d33a8ba5d99c9b90ddf1211ebec/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c5c63f38591c6334646986cafaea645/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/5ae0f9b4ec9e2a9b5d9ec0cf2855844a/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/5fcbf7d4724b4d30ac791248b6c2b9f8/transformed/jetified-activity-1.5.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/5bbceca8a5b814c05f6dd01cd255b4f9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/9e99fb4f47a6c3505ef4d3d42c9d59b0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c33ce8b29761037151d8467689a76c02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/e51ede32a471d061eb499dfd6de5619d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/d8e28d4adcfbe90d2af73637c9966c2f/transformed/lifecycle-viewmodel-2.5.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/db2127a451489075f77a89fcbb526fb1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/3daa33c3d4805ac49e693f23be067e6c/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c608ec08aea85f0160530fba98f4a926/transformed/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/6b3fa37906091c09dcc7f6335b4d7b0d/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/03941fd109df67870073e4528c818a1f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/05e6d4301bdfe1f69e932f1f055ab475/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/18ca06a2d0ad3a3b8ece9e3d579e0ee8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/5e5872bf1abdd4a5b857f18809b7d50c/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/tejaspatel/.gradle/caches/transforms-3/d31518d1920e46c03f45be7b37c9d6b6/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/c579b106efda65b198e4ba6a2de7fa30/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/657a4109fd98f345cd0182c19a82141f/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5db6f2767ecacf8f7e9b263a7703e5c6/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f13a7914623f267b8406fc9173a5b72/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/4dea2811cc2525a56bcfe821fd8b73b3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/a0182a61d6d7e443662b97ae7b8f5105/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/fcd03a0cfb1534867592534743c4bfb6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/bca67444381a29f4117b20b70b22016a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/6f8798190e2502c01b95fd0993107d2f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/7029c70cede62f76efc9c24f5f0f27c7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/9836ba19d86c78d4405ca107dd718c50/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/tejaspatel/.gradle/caches/transforms-3/6799e0d7e62f9b32355053722921cfe6/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0-alpha02] /Users/tejaspatel/.gradle/caches/transforms-3/a3be7146ac39ba452dbb318bffeda36c/transformed/jetified-savedstate-ktx-1.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0-alpha02] /Users/tejaspatel/.gradle/caches/transforms-3/3640c535cd4c552709581c14a67f2a68/transformed/jetified-savedstate-1.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/tejaspatel/.gradle/caches/transforms-3/dd09a194ca03c4b23f08e2a600f5f54b/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/d76c650b81c5d128756572093cc6b5f7/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/ee1dc3237b38c1ac1010e2e32453c6a9/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0-alpha07] /Users/tejaspatel/.gradle/caches/transforms-3/b859187ce696ca0e2c527ddd68591805/transformed/core-1.8.0-alpha07/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/tejaspatel/.gradle/caches/transforms-3/233d3a7e0dce251335c4be096cd031aa/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a2235def62eeb1f764993dd6b36a082f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c6d89f146de5f409e647028840c6043b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/72ce13e967400819a1fa5291d84abde3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/e120d7fc042acaf14b3889c413a6059d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/3999d73ea1eda83174d6bac6b8d450ac/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/a2bc13293af9c1db8de55cd7f04ae4e8/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/c8e079767eb3b22589a43b64f59c2d20/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/99fbeefb21e8602b02eed8a4a816e315/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/d27aa8cc496fedd2081f63fac01f2a95/transformed/lifecycle-livedata-core-2.5.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/363fc01b767155f1645519c36c4981d5/transformed/lifecycle-runtime-2.5.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/630f107bfc1d7326f0e45c2e441fe680/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/tejaspatel/.gradle/caches/transforms-3/30436bd1f74e852cb57a2256d499e59f/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.ui:ui-util:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/9f272a2e4d6421a8a0172b4ec4e3cb37/transformed/jetified-ui-util-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9ed253d306fc56a8f8faeb0247e73875/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/869ae285492718536ae3d576226165ab/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:2:5-33
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+MERGED from [:google_maps_flutter_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:razorpay_flutter] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/razorpay_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:razorpay_flutter] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/razorpay_flutter/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/package_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:stripe_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/stripe_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:stripe_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/stripe_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:6:5-44
+MERGED from [com.stripe:stripe-android:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/8cc36d0c79af2caf3a773b1c70f2778d/transformed/jetified-stripe-android-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-android:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/8cc36d0c79af2caf3a773b1c70f2778d/transformed/jetified-stripe-android-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-ui-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/20c5eae8992bcbabedf57b366be3336e/transformed/jetified-payments-ui-core-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-ui-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/20c5eae8992bcbabedf57b366be3336e/transformed/jetified-payments-ui-core-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-model:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/8c3eb77e1257b429daf4920346eb89d9/transformed/jetified-payments-model-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-model:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/8c3eb77e1257b429daf4920346eb89d9/transformed/jetified-payments-model-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/c947d12cba318ecfbfa956c47aead178/transformed/jetified-stripe-core-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/c947d12cba318ecfbfa956c47aead178/transformed/jetified-stripe-core-20.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout-compose:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8d0d4428190a26a44c864d8956860203/transformed/jetified-constraintlayout-compose-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout-compose:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8d0d4428190a26a44c864d8956860203/transformed/jetified-constraintlayout-compose-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/559a6e2fe138c3188d2dfd5904fb0057/transformed/jetified-material-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/559a6e2fe138c3188d2dfd5904fb0057/transformed/jetified-material-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.23.1] /Users/tejaspatel/.gradle/caches/transforms-3/95f82da659321101f7a4e84693c56693/transformed/jetified-accompanist-flowlayout-0.23.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.23.1] /Users/tejaspatel/.gradle/caches/transforms-3/95f82da659321101f7a4e84693c56693/transformed/jetified-accompanist-flowlayout-0.23.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/25b8efe962ada9c60c9cfe0f8e3f94c1/transformed/jetified-material-ripple-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/25b8efe962ada9c60c9cfe0f8e3f94c1/transformed/jetified-material-ripple-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/e989123ca09d86d937f0a1e78369b01b/transformed/jetified-foundation-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/e989123ca09d86d937f0a1e78369b01b/transformed/jetified-foundation-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/229adb549694dc0d2ff208dc68ecaf35/transformed/jetified-material-icons-core-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/229adb549694dc0d2ff208dc68ecaf35/transformed/jetified-material-icons-core-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-livedata:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/eab22fc42b4767a7022be8513ef76a46/transformed/jetified-runtime-livedata-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-livedata:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/eab22fc42b4767a7022be8513ef76a46/transformed/jetified-runtime-livedata-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/f9806905d5c9fe0760dd6ea6eb9d0b7b/transformed/jetified-navigation-compose-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/f9806905d5c9fe0760dd6ea6eb9d0b7b/transformed/jetified-navigation-compose-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a780c46947e8521b89641dca493443e7/transformed/jetified-animation-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a780c46947e8521b89641dca493443e7/transformed/jetified-animation-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/7f214f2fbae87e8f07c7c5b144432e2d/transformed/jetified-foundation-layout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/7f214f2fbae87e8f07c7c5b144432e2d/transformed/jetified-foundation-layout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/79b368f010e5205f6f41332d61a213e0/transformed/jetified-activity-compose-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/79b368f010e5205f6f41332d61a213e0/transformed/jetified-activity-compose-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/11d42ec319a6517920133e27dc8d1126/transformed/jetified-lifecycle-viewmodel-compose-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/11d42ec319a6517920133e27dc8d1126/transformed/jetified-lifecycle-viewmodel-compose-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/bc9dc87f3065f586399489d8c9150096/transformed/jetified-animation-core-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/bc9dc87f3065f586399489d8c9150096/transformed/jetified-animation-core-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/2c53db00ac4c0811d53799d231f28c60/transformed/jetified-ui-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/2c53db00ac4c0811d53799d231f28c60/transformed/jetified-ui-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/377798e1f07d263b2437b52a8edaba97/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/377798e1f07d263b2437b52a8edaba97/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/84213076b41aebf18f1bec7448c265cf/transformed/jetified-ui-tooling-preview-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/84213076b41aebf18f1bec7448c265cf/transformed/jetified-ui-tooling-preview-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/afa0d3b63469400119cf57fa6310f673/transformed/jetified-ui-text-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/afa0d3b63469400119cf57fa6310f673/transformed/jetified-ui-text-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/8e7491a53b71e71c27fa3c14acd8146a/transformed/jetified-runtime-saveable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/8e7491a53b71e71c27fa3c14acd8146a/transformed/jetified-runtime-saveable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/05ef55ccd0cdd2edaed2fa972151bd01/transformed/jetified-ui-graphics-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/05ef55ccd0cdd2edaed2fa972151bd01/transformed/jetified-ui-graphics-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/42d45d996fdc0eaf5177d45590a93d37/transformed/jetified-ui-unit-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/42d45d996fdc0eaf5177d45590a93d37/transformed/jetified-ui-unit-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a25bcc298f8a3a22e0b474588be691ac/transformed/jetified-ui-geometry-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a25bcc298f8a3a22e0b474588be691ac/transformed/jetified-ui-geometry-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/3297eb19347b8923d13204e820441ce3/transformed/jetified-runtime-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/3297eb19347b8923d13204e820441ce3/transformed/jetified-runtime-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/4ebefa4f8a09296185ff93c1a443270c/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/4ebefa4f8a09296185ff93c1a443270c/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/dff2070fe005664539d081f270bef274/transformed/navigation-runtime-ktx-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/dff2070fe005664539d081f270bef274/transformed/navigation-runtime-ktx-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/2a80f3f22a10d636ef3d2b0e977c0672/transformed/navigation-runtime-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/2a80f3f22a10d636ef3d2b0e977c0672/transformed/navigation-runtime-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/89fd874653bd2b6d59c93f1f7c524db1/transformed/jetified-activity-ktx-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/89fd874653bd2b6d59c93f1f7c524db1/transformed/jetified-activity-ktx-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/c14afe6bee4309a568acabfc727df1e4/transformed/navigation-common-ktx-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/c14afe6bee4309a568acabfc727df1e4/transformed/navigation-common-ktx-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/f598c0ab8fb78b44e0973e12426ed10c/transformed/navigation-common-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.0-alpha04] /Users/tejaspatel/.gradle/caches/transforms-3/f598c0ab8fb78b44e0973e12426ed10c/transformed/navigation-common-2.5.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/765d83fd2aa8e38cf98eba470117a6d3/transformed/jetified-lifecycle-viewmodel-ktx-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/765d83fd2aa8e38cf98eba470117a6d3/transformed/jetified-lifecycle-viewmodel-ktx-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/a67f67b7bcc966067febedf963447a96/transformed/jetified-play-services-wallet-19.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/a67f67b7bcc966067febedf963447a96/transformed/jetified-play-services-wallet-19.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /Users/tejaspatel/.gradle/caches/transforms-3/0258c1eaf553756290d1f39f34340425/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /Users/tejaspatel/.gradle/caches/transforms-3/0258c1eaf553756290d1f39f34340425/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/4ed915bd47a0922f08fb71a4b968bf65/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/4ed915bd47a0922f08fb71a4b968bf65/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/f78c5aeea1f53467e93678cd6c1a1211/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/f78c5aeea1f53467e93678cd6c1a1211/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/658b5c0d02ff8f74ede0c1dbad09d41c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/658b5c0d02ff8f74ede0c1dbad09d41c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/d1848091edbb20bed2913d8a220d9b30/transformed/jetified-play-services-auth-api-phone-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/d1848091edbb20bed2913d8a220d9b30/transformed/jetified-play-services-auth-api-phone-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/21e96fcdcb9040700d9d8a1bd505f727/transformed/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/21e96fcdcb9040700d9d8a1bd505f727/transformed/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/54802d3ebe8827f91e51bbfe38450b07/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/54802d3ebe8827f91e51bbfe38450b07/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/44291d33a8ba5d99c9b90ddf1211ebec/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/44291d33a8ba5d99c9b90ddf1211ebec/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c5c63f38591c6334646986cafaea645/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c5c63f38591c6334646986cafaea645/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/5ae0f9b4ec9e2a9b5d9ec0cf2855844a/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/5ae0f9b4ec9e2a9b5d9ec0cf2855844a/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/5fcbf7d4724b4d30ac791248b6c2b9f8/transformed/jetified-activity-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0-alpha05] /Users/tejaspatel/.gradle/caches/transforms-3/5fcbf7d4724b4d30ac791248b6c2b9f8/transformed/jetified-activity-1.5.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/5bbceca8a5b814c05f6dd01cd255b4f9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/5bbceca8a5b814c05f6dd01cd255b4f9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/9e99fb4f47a6c3505ef4d3d42c9d59b0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/9e99fb4f47a6c3505ef4d3d42c9d59b0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c33ce8b29761037151d8467689a76c02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c33ce8b29761037151d8467689a76c02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/e51ede32a471d061eb499dfd6de5619d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/e51ede32a471d061eb499dfd6de5619d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/d8e28d4adcfbe90d2af73637c9966c2f/transformed/lifecycle-viewmodel-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/d8e28d4adcfbe90d2af73637c9966c2f/transformed/lifecycle-viewmodel-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/db2127a451489075f77a89fcbb526fb1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/db2127a451489075f77a89fcbb526fb1/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/3daa33c3d4805ac49e693f23be067e6c/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/3daa33c3d4805ac49e693f23be067e6c/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c608ec08aea85f0160530fba98f4a926/transformed/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c608ec08aea85f0160530fba98f4a926/transformed/webkit-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/6b3fa37906091c09dcc7f6335b4d7b0d/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/6b3fa37906091c09dcc7f6335b4d7b0d/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/03941fd109df67870073e4528c818a1f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/03941fd109df67870073e4528c818a1f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/05e6d4301bdfe1f69e932f1f055ab475/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/05e6d4301bdfe1f69e932f1f055ab475/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/18ca06a2d0ad3a3b8ece9e3d579e0ee8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/18ca06a2d0ad3a3b8ece9e3d579e0ee8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/5e5872bf1abdd4a5b857f18809b7d50c/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/5e5872bf1abdd4a5b857f18809b7d50c/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/tejaspatel/.gradle/caches/transforms-3/d31518d1920e46c03f45be7b37c9d6b6/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/tejaspatel/.gradle/caches/transforms-3/d31518d1920e46c03f45be7b37c9d6b6/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/c579b106efda65b198e4ba6a2de7fa30/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/tejaspatel/.gradle/caches/transforms-3/c579b106efda65b198e4ba6a2de7fa30/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/657a4109fd98f345cd0182c19a82141f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/657a4109fd98f345cd0182c19a82141f/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5db6f2767ecacf8f7e9b263a7703e5c6/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5db6f2767ecacf8f7e9b263a7703e5c6/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f13a7914623f267b8406fc9173a5b72/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f13a7914623f267b8406fc9173a5b72/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/4dea2811cc2525a56bcfe821fd8b73b3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/4dea2811cc2525a56bcfe821fd8b73b3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/a0182a61d6d7e443662b97ae7b8f5105/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/a0182a61d6d7e443662b97ae7b8f5105/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/fcd03a0cfb1534867592534743c4bfb6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/fcd03a0cfb1534867592534743c4bfb6/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/bca67444381a29f4117b20b70b22016a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/bca67444381a29f4117b20b70b22016a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/6f8798190e2502c01b95fd0993107d2f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/6f8798190e2502c01b95fd0993107d2f/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/7029c70cede62f76efc9c24f5f0f27c7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/7029c70cede62f76efc9c24f5f0f27c7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/9836ba19d86c78d4405ca107dd718c50/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/9836ba19d86c78d4405ca107dd718c50/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/tejaspatel/.gradle/caches/transforms-3/6799e0d7e62f9b32355053722921cfe6/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/tejaspatel/.gradle/caches/transforms-3/6799e0d7e62f9b32355053722921cfe6/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0-alpha02] /Users/tejaspatel/.gradle/caches/transforms-3/a3be7146ac39ba452dbb318bffeda36c/transformed/jetified-savedstate-ktx-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0-alpha02] /Users/tejaspatel/.gradle/caches/transforms-3/a3be7146ac39ba452dbb318bffeda36c/transformed/jetified-savedstate-ktx-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0-alpha02] /Users/tejaspatel/.gradle/caches/transforms-3/3640c535cd4c552709581c14a67f2a68/transformed/jetified-savedstate-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0-alpha02] /Users/tejaspatel/.gradle/caches/transforms-3/3640c535cd4c552709581c14a67f2a68/transformed/jetified-savedstate-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/tejaspatel/.gradle/caches/transforms-3/dd09a194ca03c4b23f08e2a600f5f54b/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/tejaspatel/.gradle/caches/transforms-3/dd09a194ca03c4b23f08e2a600f5f54b/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/d76c650b81c5d128756572093cc6b5f7/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/d76c650b81c5d128756572093cc6b5f7/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/ee1dc3237b38c1ac1010e2e32453c6a9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/ee1dc3237b38c1ac1010e2e32453c6a9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0-alpha07] /Users/tejaspatel/.gradle/caches/transforms-3/b859187ce696ca0e2c527ddd68591805/transformed/core-1.8.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0-alpha07] /Users/tejaspatel/.gradle/caches/transforms-3/b859187ce696ca0e2c527ddd68591805/transformed/core-1.8.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/tejaspatel/.gradle/caches/transforms-3/233d3a7e0dce251335c4be096cd031aa/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/tejaspatel/.gradle/caches/transforms-3/233d3a7e0dce251335c4be096cd031aa/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a2235def62eeb1f764993dd6b36a082f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/a2235def62eeb1f764993dd6b36a082f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c6d89f146de5f409e647028840c6043b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/c6d89f146de5f409e647028840c6043b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/72ce13e967400819a1fa5291d84abde3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/72ce13e967400819a1fa5291d84abde3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/e120d7fc042acaf14b3889c413a6059d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/e120d7fc042acaf14b3889c413a6059d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/3999d73ea1eda83174d6bac6b8d450ac/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/3999d73ea1eda83174d6bac6b8d450ac/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/a2bc13293af9c1db8de55cd7f04ae4e8/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/a2bc13293af9c1db8de55cd7f04ae4e8/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/c8e079767eb3b22589a43b64f59c2d20/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/c8e079767eb3b22589a43b64f59c2d20/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/99fbeefb21e8602b02eed8a4a816e315/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/tejaspatel/.gradle/caches/transforms-3/99fbeefb21e8602b02eed8a4a816e315/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/d27aa8cc496fedd2081f63fac01f2a95/transformed/lifecycle-livedata-core-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/d27aa8cc496fedd2081f63fac01f2a95/transformed/lifecycle-livedata-core-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/363fc01b767155f1645519c36c4981d5/transformed/lifecycle-runtime-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0-alpha06] /Users/tejaspatel/.gradle/caches/transforms-3/363fc01b767155f1645519c36c4981d5/transformed/lifecycle-runtime-2.5.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/630f107bfc1d7326f0e45c2e441fe680/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/630f107bfc1d7326f0e45c2e441fe680/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/tejaspatel/.gradle/caches/transforms-3/30436bd1f74e852cb57a2256d499e59f/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/tejaspatel/.gradle/caches/transforms-3/30436bd1f74e852cb57a2256d499e59f/transformed/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/9f272a2e4d6421a8a0172b4ec4e3cb37/transformed/jetified-ui-util-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.1.1] /Users/tejaspatel/.gradle/caches/transforms-3/9f272a2e4d6421a8a0172b4ec4e3cb37/transformed/jetified-ui-util-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9ed253d306fc56a8f8faeb0247e73875/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9ed253d306fc56a8f8faeb0247e73875/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/869ae285492718536ae3d576226165ab/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/869ae285492718536ae3d576226165ab/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/tejaspatel/Documents/app/flutter_app/uni/user/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-74
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-26:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-25:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-79
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:connectivity] /Users/tejaspatel/Documents/app/flutter_app/uni/user/build/connectivity/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+queries
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:10:5-39:15
+MERGED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:10:5-14:15
+MERGED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:10:5-14:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.VIEW+data:mimeType:*/*+data:scheme:*
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:11:9-17:18
+action#android.intent.action.VIEW
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:12:13-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:12:21-62
+data
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:14:13-16:38
+	android:scheme
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:16:17-35
+	android:mimeType
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:15:17-39
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:18:9-27:18
+category#android.intent.category.BROWSABLE
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:21:23-71
+intent#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:28:9-30:18
+action#android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:29:13-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:29:21-62
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:31:9-35:18
+action#android.intent.action.SEND
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:32:13-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:32:21-62
+intent#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:36:9-38:18
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:37:13-61
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:37:21-58
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:42:9-49:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:44:13-36
+	tools:ignore
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:45:13-44
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:43:13-57
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:46:13-48:29
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:51:9-59:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:54:13-36
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:53:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:52:13-57
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:56:13-58:29
+meta-data#com.razorpay.plugin.googlepay_all
+ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:61:9-63:58
+	android:value
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:63:13-55
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.33] /Users/tejaspatel/.gradle/caches/transforms-3/85452789b16b0489ef8ed879a71fa5d7/transformed/jetified-checkout-1.6.33/AndroidManifest.xml:62:13-61
+activity#com.stripe.android.paymentsheet.PaymentSheetActivity
+ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:10:9-13:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:13:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:11:13-80
+activity#com.stripe.android.paymentsheet.PaymentOptionsActivity
+ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:14:9-17:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:17:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9714861115394dfa176f21296741f1a9/transformed/jetified-paymentsheet-20.1.0/AndroidManifest.xml:15:13-82
+activity#com.stripe.android.link.LinkActivity
+ADDED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:10:9-13:44
+	android:label
+		ADDED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:13:13-41
+	android:exported
+		ADDED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.stripe:link:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/0945fa0023b7c292fb0ffaeb7f3e33e8/transformed/jetified-link-20.1.0/AndroidManifest.xml:11:13-64
+package#com.android.chrome
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:13:9-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:13:18-51
+activity#com.stripe.android.view.AddPaymentMethodActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:17:9-20:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:19:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:20:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:18:13-76
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:21:9-24:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:24:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:22:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:25:9-28:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:28:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:26:13-71
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:29:9-33:58
+	android:windowSoftInputMode
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:33:13-55
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:32:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:30:13-78
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:34:9-37:61
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:35:13-72
+activity#com.stripe.android.payments.StripeBrowserLauncherActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:43:9-47:61
+	android:launchMode
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:46:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:45:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:47:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:44:13-85
+activity#com.stripe.android.payments.StripeBrowserProxyReturnActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:48:9-65:20
+	android:launchMode
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:52:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:49:13-88
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/${applicationId}+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:53:13-64:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/com.activeapp.user+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:53:13-64:29
+category#android.intent.category.DEFAULT
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:56:27-73
+activity#com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:66:9-69:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:69:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:67:13-114
+activity#com.stripe.android.googlepaylauncher.StripeGooglePayActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:70:9-73:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:72:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:73:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:71:13-88
+activity#com.stripe.android.googlepaylauncher.GooglePayLauncherActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:74:9-77:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:76:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:77:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:75:13-90
+activity#com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:78:9-81:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:80:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:81:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:79:13-103
+activity#com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:82:9-85:62
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:84:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:85:13-59
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:83:13-107
+activity#com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity
+ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:86:9-89:61
+	android:exported
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:88:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:89:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/5f92146ce9feab19abe3b877138c455c/transformed/jetified-payments-core-20.1.0/AndroidManifest.xml:87:13-97
+activity#com.stripe.android.stripe3ds2.views.ChallengeActivity
+ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:10:9-13:54
+	android:exported
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:13:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/tejaspatel/.gradle/caches/transforms-3/5c94e68a78153f98c2793a9e5a8a4d77/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:11:13-81
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/tejaspatel/.gradle/caches/transforms-3/d6c18a2927aa1a14bbcc2eb2febb6fd2/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/4e7a5ba435280b3f0a0f17633732525e/transformed/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/tejaspatel/.gradle/caches/transforms-3/e3ae7190b138aa0088c378e2c087536a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/ad3760fe4dbb859a564f9e9338c487fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/03941fd109df67870073e4528c818a1f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/03941fd109df67870073e4528c818a1f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tejaspatel/.gradle/caches/transforms-3/8a5d8c97fe3c7ac79308c013b72ec0f8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tejaspatel/.gradle/caches/transforms-3/eea0a65a4a584d8ec1767604d8874412/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:32:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:40:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:41:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:37:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:42:13-44:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:43:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/6d48fdff6248e24fd66582fa77485dd0/transformed/jetified-profileinstaller-1.1.0/AndroidManifest.xml:43:25-88
+meta-data#aia-compat-api-min-version
+ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+	android:value
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+	android:name
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/tejaspatel/.gradle/caches/transforms-3/9c1752b869c2949a04f93373189be2a6/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
