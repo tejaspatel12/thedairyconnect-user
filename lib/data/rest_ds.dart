@@ -10,7 +10,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class RestDatasource {
   NetworkUtil _netUtil = new NetworkUtil();
-  static final BASE_URL = "https://7047cem.activeapp.in/";
+  static final BASE_URL = "https://7047cem.activeit.in/";
 
   static final BASE_URL_APP = BASE_URL + "api/";
   static final CATEGORY_BASE_URL_APP = BASE_URL + "api/admin/product/category/";
